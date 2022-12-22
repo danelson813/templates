@@ -1,0 +1,7 @@
+pyenv install 3.9.8 # install a new python version
+pyenv versions      # shows installed versions
+pyenv local 3.9.8   # sets a python verison to use in current shell
+poetry install      # install packages from .toml or .lock
+poetry shell     # needed for the first time to activate virtualenv
+poetry env info  # verify the virtualenv in the current shell
+which python     # verify python executable is correct

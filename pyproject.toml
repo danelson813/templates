@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "templates"
+version = "0.1.0"
+description = "templates to store for later use"
+authors = ["Dan Nelson <danelson@nwi.net>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+selenium = "^4.7.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
